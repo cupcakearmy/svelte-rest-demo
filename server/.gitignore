@@ -1,0 +1,7 @@
+# Node stuff
+yarn.lock
+package-lock.json
+node_modules
+
+# DB
+*.db
