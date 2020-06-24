@@ -6,7 +6,7 @@
 <style>
   input {
     outline: none;
-    border: 3px solid hsl(0, 0%, 0%);
+    border: 3px solid var(--clr-accent);
     border-radius: 1em;
     font-size: inherit;
     padding: 0.25em 1em;

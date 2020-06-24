@@ -2,7 +2,7 @@
   import Button from './Button.svelte'
   import Field from './Field.svelte'
 
-  import { add } from '../api'
+  import { add } from '../api/todo.js'
 
   let title = ''
 

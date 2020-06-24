@@ -1,6 +1,6 @@
 <script>
   import Todo from './Todo.svelte'
-  import { todos } from '../api'
+  import { todos } from '../stores.js'
 </script>
 
 <style>

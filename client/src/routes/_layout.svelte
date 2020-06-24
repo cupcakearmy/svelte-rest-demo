@@ -2,16 +2,19 @@
   // import 'bootstrap/dist/css/bootstrap.min.css'
   import { onMount } from 'svelte'
 
-  import { refresh } from '../api'
+  import { refresh } from '../api/todo.js'
 
   onMount(() => {
     refresh()
-    console.log('mounted')
   })
 </script>
 
 <style>
-  * {
+  :root {
+    --clr-accent: #000;
+  }
+
+  :global(*) {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

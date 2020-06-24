@@ -1,9 +1,8 @@
-import { writable } from 'svelte/store'
 import axios from 'axios'
 
-axios.defaults.baseURL = '//localhost:8000'
+import { todos } from '../stores'
 
-export const todos = writable([])
+axios.defaults.baseURL = '//localhost:8000'
 
 export async function refresh() {
   const { data } = await axios({
