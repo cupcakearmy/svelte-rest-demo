@@ -2,7 +2,7 @@
 
 Demo todo app for Svelte consuming a REST API
 
-![Screenshot](.github/screen.jpg)
+![Screenshot](https://github.com/cupcakearmy/svelte-rest-demo/raw/master/.github/screen.jpg)
 
 ## 🚀 Running it
 
